@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Michigan Nature Sounds is a wildlife sound explorer for Michigan mammals, birds, and insects."
+    />
+    <title>Michigan Nature Sounds</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="brand-mark">♫</div>
+        <div>
+          <p class="eyebrow">iOS · 1.0</p>
+          <h1>Michigan Nature Sounds</h1>
+        </div>
+      </div>
+      <a class="button button-primary" href="#download">Download IPA</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Nature / Wildlife / Educational</p>
+          <h2>Listen to the wild places of Michigan.</h2>
+          <p class="lede">
+            Explore the calls of mammals, birds, and insects across forests, wetlands,
+            and shorelines. Built as a lightweight web app example for GitHub Pages and
+            GitHub Codespaces.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="#download">Download IPA</a>
+            <a class="button button-secondary" href="#catalog">Explore sounds</a>
+          </div>
+        </div>
+
+        <div class="phone-shell" aria-label="App preview">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="mini-header">
+              <span>Michigan</span>
+              <span>Now playing</span>
+            </div>
+            <div class="mini-card accent">
+              <div>
+                <small>Birdsong</small>
+                <strong>American Robin</strong>
+              </div>
+              <span>▶</span>
+            </div>
+            <div class="mini-list">
+              <div><span>🦉</span> Barred Owl</div>
+              <div><span>🦌</span> White-tailed Deer</div>
+              <div><span>🐝</span> Monarch Butterfly</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Highlights">
+        <div>
+          <strong>3</strong>
+          <span>sound groups</span>
+        </div>
+        <div>
+          <strong>30+</strong>
+          <span>animal entries</span>
+        </div>
+        <div>
+          <strong>1.0</strong>
+          <span>initial release</span>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="section-heading">
+          <p class="eyebrow">Sound library</p>
+          <h3>featured species</h3>
+        </div>
+        <div id="animal-list" class="animal-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="details">
+        <div class="info-panel">
+          <p class="eyebrow">App details</p>
+          <ul>
+            <li><span>App Name:</span> Michigan Nature Sounds</li>
+            <li><span>Bundle ID:</span> com.yourcompany.MichiganNatureSounds</li>
+            <li><span>Version:</span> 1.0</li>
+            <li><span>Platform:</span> iOS</li>
+            <li><span>Minimum OS:</span> 3.0</li>
+            <li><span>Size:</span> 12.6 MB</li>
+          </ul>
+        </div>
+
+        <div class="info-panel">
+          <p class="eyebrow">Features</p>
+          <ul class="feature-list">
+            <li>Mammal sound library</li>
+            <li>Bird sound library</li>
+            <li>Insect sound library</li>
+            <li>Animal photos</li>
+            <li>Scientific names</li>
+            <li>Audio playback</li>
+            <li>Educational descriptions</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <p class="eyebrow">Distribution</p>
+        <h3>Download IPA</h3>
+        <p>
+          This repository is set up as a static web app example. Replace the placeholder
+          download link below with the actual packaged IPA when it is published.
+        </p>
+        <a class="button button-primary" href="#">Michigan Nature Sounds 1.0.ipa</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>GitHub Pages + GitHub Codespaces ready example</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
